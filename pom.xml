@@ -54,12 +54,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.freemusic</groupId>
-            <artifactId>feign-service</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+
 
         <!--&lt;!&ndash;    Swagger dependencies&ndash;&gt;-->
         <!--&lt;!&ndash; Swagger 2 core library &ndash;&gt;-->
