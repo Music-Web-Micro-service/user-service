@@ -36,7 +36,7 @@ public class User implements Serializable {
 
     private String location;
 
-    private String avatar;
+    private int imageId;
 
     private Date createTime;
 

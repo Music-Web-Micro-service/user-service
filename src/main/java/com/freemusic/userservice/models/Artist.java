@@ -24,6 +24,8 @@ public class Artist {
 
     private int userId;
 
+    private int imageId;
+
     @OneToMany(mappedBy = "artist", fetch = FetchType.EAGER)
     private List<Biography> biographiesList;
     
@@ -35,6 +37,4 @@ public class Artist {
     private Date createdAt;
 
     private Date updateAt;
-
-
 }
